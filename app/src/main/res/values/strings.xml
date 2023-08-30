@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="news_by_country">Country</string>
+    <string name="news_by_category">Category</string>
+    <string name="news_by_source">Source</string>
+    <string name="india">India</string>
+    <string name="united_states">United States</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="australia">Australia</string>
+    <string name="canada">Canada</string>
+    <string name="malaysia">Malaysia</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="ireland">Ireland</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="philippines">Philippines</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="singapore">Singapore</string>
+    <string name="south_africa">South Africa</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="general">General</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+    <string name="bbc_news">BBC News</string>
+    <string name="cnn">CNN</string>
+    <string name="fox_news">Fox News</string>
+    <string name="the_washington_post">The Washington Post</string>
+    <string name="business_insider">Business Insider</string>
+    <string name="abc_news">ABC News</string>
+    <string name="time">TIME</string>
+    <string name="the_times_of_india">The Times of India</string>
+    <string name="the_hindu">The Hindu</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nbc_news">NBC News</string>
+    <string name="espn">ESPN</string>
+    <string name="the_verge">The Verge</string>
+    <string name="the_wall_street_journal">The Wall Street Journal</string>
+    <string name="cbs_news">CBS News</string>
+    <string name="al_jazeera">Al Jazeera</string>
+    <string name="associated_press">Associated Press</string>
+    <string name="google_news">Google News</string>
+    <string name="politico">Politico</string>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groups"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/newsByCountry"
+            android:title="@string/news_by_country">
+            <menu>
+                <group
+                    android:id="@+id/group_country"
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/australia"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/australia" />
+
+                    <item
+                        android:id="@+id/canada"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/canada" />
+                    <item
+                        android:id="@+id/india"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/india" />
+                    <item
+                        android:id="@+id/ireland"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/ireland" />
+                    <item
+                        android:id="@+id/malaysia"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/malaysia" />
+                    <item
+                        android:id="@+id/newZealand"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/new_zealand" />
+                    <item
+                        android:id="@+id/nigeria"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/nigeria" />
+                    <item
+                        android:id="@+id/philippines"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/philippines" />
+                    <item
+                        android:id="@+id/saudiArabia"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/saudi_arabia" />
+                    <item
+                        android:id="@+id/singapore"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/singapore" />
+                    <item
+                        android:id="@+id/southAfrica"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/south_africa" />
+                    <item
+                        android:id="@+id/uk"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/united_kingdom" />
+                    <item
+                        android:id="@+id/usa"
+                        android:icon="@drawable/ic_country"
+                        android:title="@string/united_states" />
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/newsByCategory"
+            android:title="@string/news_by_category">
+            <menu>
+                <group
+                    android:id="@+id/group_category"
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/business"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/business" />
+                    <item
+                        android:id="@+id/entertainment"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/entertainment" />
+                    <item
+                        android:id="@+id/general"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/general" />
+                    <item
+                        android:id="@+id/health"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/health" />
+                    <item
+                        android:id="@+id/science"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/science" />
+                    <item
+                        android:id="@+id/sports"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/sports" />
+                    <item
+                        android:id="@+id/technology"
+                        android:icon="@drawable/icon_category"
+                        android:title="@string/technology" />
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/newsBySource"
+            android:title="@string/news_by_source">
+            <menu>
+                <group
+                    android:id="@+id/group_source"
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/abcNews"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/abc_news" />
+                    <item
+                        android:id="@+id/alJazeera"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/al_jazeera" />
+                    <item
+                        android:id="@+id/associatedPress"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/associated_press" />
+                    <item
+                        android:id="@+id/bbcNews"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/bbc_news" />
+                    <item
+                        android:id="@+id/businessInsider"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/business_insider" />
+                    <item
+                        android:id="@+id/cbsNews"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/cbs_news" />
+                    <item
+                        android:id="@+id/cnn"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/cnn" />
+                    <item
+                        android:id="@+id/espn"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/espn" />
+                    <item
+                        android:id="@+id/foxNews"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/fox_news" />
+                    <item
+                        android:id="@+id/googleNews"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/google_news" />
+                    <item
+                        android:id="@+id/nbcNews"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/nbc_news" />
+                    <item
+                        android:id="@+id/politico"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/politico" />
+                    <item
+                        android:id="@+id/theHindu"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/the_hindu" />
+                    <item
+                        android:id="@+id/theTimesOfIndia"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/the_times_of_india" />
+                    <item
+                        android:id="@+id/theVerge"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/the_verge" />
+                    <item
+                        android:id="@+id/theWallStreetJournal"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/the_wall_street_journal" />
+                    <item
+                        android:id="@+id/theWashingtonPost"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/the_washington_post" />
+                    <item
+                        android:id="@+id/time"
+                        android:icon="@drawable/icon_source"
+                        android:title="@string/time" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
